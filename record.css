@@ -68,6 +68,54 @@
 
 
 }
+
+
+
+
+.presh{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(0,137,255, 0.8);
+    transition: width .5s ease-in;
+    animation: grow 10s ease forwards;
+    transform-origin: bottom;
+    /* display: flex; */
+    /* align-items: flex-end; */
+    /* overflow: hidden; */
+    /* position: absolute; */
+    /* top: 500%; */
+    /* left: 100px; */
+    /* border-radius: 5px; */
+}
+.presh-1{
+
+    height: 40px;
+    background-color: rgb(0,137,255, 0.8);
+    transition: width .5s ease-in;
+    animation: grow 10s ease forwards;
+    transform-origin: bottom;
+
+    /* top: 400%; */
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .musu{
     width: 170px;
     height: 200px;
@@ -83,21 +131,26 @@
     top: 165px;
     left: -1022px; 
 }
-/* .text{
+.text{
     font-size: 70px;
+    margin-bottom: -30px;
+    margin-left: 30px;
     color: white;
     font-weight: bold;
-    margin-bottom: -30px;
+
+
+}
+.textt{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: -20px;
     text-align: center;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 600;
-    padding-left: 20px;
+    padding-left: 600px;
 
-}  */
-
-
-
-
+}   
 
 
 .musu:hover{
@@ -105,7 +158,15 @@
     width: 180px;
 
 }
-
+@keyframes rise {
+    0%{
+        position: relative;
+    }
+    100%{
+        position: relative;
+        top: -100px;
+    }
+}
 @keyframes grow{
     from{transform: scaleY(0);
 
@@ -138,7 +199,7 @@
     display: flex;
     align-items: flex-end;
     left: -500px; 
-    overflow: hidden;
+    /* overflow: hidden; */
     top: 225px;
     left: -1022px;
 
@@ -205,9 +266,9 @@
         transform: scaleY(1);
     }
 }
-.mm{
+.mm:hover{
     background-color: rgb(17,144,72, 0.9);
-    width: 170px;
+    width: 180px;
 
 
 }
@@ -271,6 +332,216 @@
     position: relative;
     left: -800px;
 }
+
+
+
+
+
+.muss{
+    width: 175.5px;
+    height: 200px;
+    background-color: rgb(183,179,117,0.6);
+    transition: width .5s ease-in;
+    animation: grow 10s ease forwards;
+    transform-origin: bottom;
+    z-index: 200;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+    top: 165px;
+    left: -1022px; 
+}
+.jude{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    /* margin-bottom: 0px; */
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    padding-left: 600px;
+
+}   
+
+
+.muss:hover{
+    background-color: rgba(21, 0, 255, 0.9);
+    width: 180px;
+
+}
+
+
+.s{
+
+    height: 210px;
+    background-color: rgb(183,179,117,0.6);
+    transition: width .5s ease-in;
+    transform-origin: bottom;
+    display: flex;
+    align-items: flex-end;
+    left: -500px; 
+    top: 155px;
+    left: -1022px;
+} 
+.ss{
+    height: 220px;
+    background-color: rgb(183,179,117,0.6);
+    transition: width .5s ease-in;
+    transform-origin: bottom;
+    display: flex;
+    align-items: flex-end;
+    left: -500px; 
+    top: 145px;
+    left: -1022px;
+
+} 
+.sss{
+    height: 150px;
+    background-color: rgb(183,179,117,0.6);
+    transition: width .5s ease-in;
+    transform-origin: bottom;
+    display: flex;
+    align-items: flex-end;
+    left: -500px; 
+    /* overflow: hidden; */
+    top: 215px;
+    left: -1022px;
+} 
+
+
+
+
+.muss:hover{
+    background-color: rgb(183,179,117,1);
+    width: 180px;
+
+
+}
+
+@keyframes grow{
+    from{transform: scaleY(0);
+
+    }
+
+    to{
+        transform: scaleY(1);
+    }
+}
+
+.magicc{
+    position: relative;
+    left: 220px;
+    top: 600px;
+}
+
+
+.musss{
+    width: 175.5px;
+    height: 60px;
+    background-color: rgb(138,45,100,0.6);
+    transition: width .5s ease-in;
+    animation: jude 10s ease forwards ;
+    transform-origin: top;
+    z-index: 200;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+    top: 365px;
+    left: -1022px; 
+}
+.judee{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    /* margin-bottom: 0px; */
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    padding-left: 600px;
+
+}   
+
+
+
+
+
+.y{
+
+    height: 70px;
+    background-color: rgb(138,45,100,0.6);
+    transition: width .5s ease-in;
+    /* transform-origin: bottom; */
+    display: flex;
+    align-items: flex-end;
+    left: -500px; 
+    top: 365px;
+    left: -1022px;
+} 
+.yy{
+    height: 65px;
+    background-color: rgb(138,45,100,0.6);
+    transition: width .5s ease-in;
+    /* transform-origin: bottom; */
+    display: flex;
+    align-items: flex-end;
+    left: -500px; 
+    top: 365px;
+    left: -1022px;
+
+} 
+.yyy{
+    height: 60px;
+    background-color: rgb(138,45,100,0.6);
+    transition: width .5s ease-in;
+    /* transform-origin: bottom; */
+    display: flex;
+    align-items: flex-end;
+    left: -500px; 
+    /* overflow: hidden; */
+    top: 365px;
+    left: -1022px;
+} 
+
+
+
+
+.musss:hover{
+    background-color: rgb(138,45,100,1);
+    width: 180px;
+
+
+}
+
+
+@keyframes jude {
+    from {
+        transform: scaleY(0);
+    }
+    to {
+        transform: scaleY(1);
+    }
+}
+
+
+.mag{
+    position: relative;
+    left: 220px;
+    top: 600px;
+}
+.write{
+    font-size: 50px;
+    /* margin-bottom: -5px; */
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+
+
 
 
 
@@ -415,14 +686,7 @@
 
 
 }
-.text{
-    font-size: 100px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: -30px;
-    padding-left: 600px;
 
-}
 .sam:hover{
     background-color: rgb(0,137,255, 0.9);
 
@@ -728,5 +992,292 @@ button{
         transform:scale(1.1);
         transition: 1s;
         
+    }
+    
+
+    .tunde{
+        width: 170px;
+        height: 150px;
+        background-color: rgb(10,55,93,0.6);
+        transition: width .5s ease-in;
+        animation: grow 10s ease forwards;
+        transform-origin: bottom;
+        z-index: 200;
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+        position: relative;
+        top: 215px;
+        left: -1022px; 
+    }
+    .texty{
+        font-size: 70px;
+        margin-bottom: -30px;
+        margin-left: 30px;
+        color: white;
+        font-weight: bold;
+    
+    
+    }
+    .tunde:hover{
+        background-color: rgb(10,55,93,1);;
+        width: 180px;
+    
+    }
+    @keyframes rise {
+        0%{
+            position: relative;
+        }
+        100%{
+            position: relative;
+            top: -100px;
+        }
+    }
+    @keyframes grow{
+        from{transform: scaleY(0);
+    
+        }
+    
+        to{
+            transform: scaleY(1);
+        }
+    }
+    
+    .k{
+    
+        height: 200px;
+        background-color: rgb(189,60,128, 0.6);
+        transition: width .5s ease-in;
+        /* animation: grow 2s ease forwards; */
+        transform-origin: bottom;
+        display: flex;
+        align-items: flex-end;
+        right: -200; 
+        overflow: hidden;
+        top: 165px;
+        left: -1022px;
+    } 
+    .kk{
+        height: 100px;
+        background-color: rgb(17,144,72, 0.6);
+        transition: width .5s ease-in;
+        transform-origin: bottom;
+        display: flex;
+        align-items: flex-end;
+        left: -500px; 
+        /* overflow: hidden; */
+        top: 265px;
+        left: -1022px;
+    
+    } 
+    .kkk{
+        height: 60px;
+        background-color:rgb(190,82,19,0.6);
+        transition: width .5s ease-in;
+        /* animation: grow 2s ease forwards; */
+        transform-origin: bottom;
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+        /* position: absolute; */
+        top: 305px;
+        left: -1022px;
+    } 
+    .kkkk{
+        height: 30px;
+        background-color: rgb(97,16,183, 0.6);
+        transition: width .5s ease-in;
+        /* animation: grow 2s ease forwards; */
+        transform-origin: bottom;
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+
+        top: 335px;
+        left: 680px;
+        left: -1022px; 
+    
+    } 
+    .kkkkk{
+        height: 15px;
+        background-color: rgb(204,181,1, 0.6);
+        transition: width .5s ease-in;
+    
+        transform-origin: bottom;
+        display: flex;
+        align-items: flex-end;
+        /* overflow: hidden; */
+        left: -1000px; 
+        top: 350px;
+        left: -1022px;
+    } 
+    
+    
+    
+    .k:hover{
+        background-color: rgb(189,60,128, 1);
+        width: 180px;
+    
+    
+    }
+    
+    @keyframes grow{
+        from{transform: scaleY(0);
+    
+        }
+    
+        to{
+            transform: scaleY(1);
+        }
+    }
+    .kk:hover{
+        background-color: rgb(17,144,72, 0.9);
+        width: 180px;
+    
+    
+    }
+    
+    @keyframes grow{
+        from{transform: scaleY(0);
+    
+        }
+    
+        to{
+            transform: scaleY(1);
+        }
+    }
+    .kkk:hover{
+        background-color:rgb(190,82,19,1);
+        width: 180px;
+    
+    }
+    
+    @keyframes grow{
+        from{transform: scaleY(0);
+    
+        }
+    
+        to{
+            transform: scaleY(1);
+        }
+    }
+    .kkkk:hover{
+        background-color: rgb(97,16,183, 1);
+        width: 180px;
+    
+    }
+    
+    @keyframes grow{
+        from{transform: scaleY(0);
+    
+        }
+    
+        to{
+            transform: scaleY(1);
+        }
+    }
+    .kkkkk:hover{
+        background-color: rgb(204,181,1, 1);
+    
+        width: 180px;
+    
+    }
+    
+    @keyframes grow{
+        from{transform: scaleY(0);
+    
+        }
+    
+        to{
+            transform: scaleY(1);
+        }
+    }
+    .itel{
+        position: relative;
+        left: 22px;
+        top: -868px;
+    }
+
+
+    .jerry{
+        width: 700px;
+        height: 40px;
+        background-color: rgb(0,137,255, 0.8);
+        transition: width .5s ease-in;
+        animation: sammy 10s ease ;
+        transform-origin: left;
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+        position: relative;
+        top: 0px;
+        left: 10px;
+        border-radius: 5px;
+    }
+    .jerry-1{
+        width: 500px;
+        /* height: 30px; */
+        background-color: rgb(237,91,137);
+        top: 20px;
+        left: 10px;
+    }
+    .jerry-2{
+        width: 400px;
+        
+        background-color: rgb(124,66,206);
+        top: 40px;
+        left: 10px;
+    }
+    .jerry-3{
+        width: 350px;
+        background-color: rgb(243,124,51);
+        top: 60px;
+        left: 10px;
+    }
+    .jerry-4{
+        width: 250px;
+        background-color:rgb(251,176,31);
+        top: 78px;
+        left: 10px;
+    }
+    .jerry-5{
+        width: 230px;
+        background-color: rgb(162,211,248);
+        top: 90px;
+        left: 10px;
+    }
+    .jerry-6{
+        width: 210px;
+        background-color:rgb(37,152,122);
+        top: 100px;
+        left: 10px;
+    }
+    .jerry-7{
+        width: 150px;
+        /* height: 30px; */
+        background-color:rgb(255,192,248);
+        top: 115px;
+        left: 10px;
+    }
+    .jerry-8{
+        width: 100px;
+        /* height: 30px; */
+        background-color:rgb(255,229,36);
+        top: 130px;
+        left: 10px;
+    }
+    .jerry-9{
+        width: 60px;
+        /* height: 30px; */
+        background-color:rgb(59,106,94);
+        top: 140px;
+        left: 10px;
+    }
+    .jerry-10{
+        width: 40px;
+        /* height: 30px; */
+        background-color:rgb(177,250,108);
+        top: 150px;
+        left: 10px;
     }
     
